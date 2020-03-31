@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <title>Zakat Calculator</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-light sticky-top">
+      <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="media/logo.png" width="auto" height="70" alt="">
+      </a>
+      <a>
+        <h4 class="text-warning p-0 m-0">Zakat and Sadaqat</h4> 
+        <h2 class="font-weight-bold text-danger">Foundation</h2>
+      </a>
+    </div>
+    </nav>
+
+
+
+    <div class="container shadow-bg mt-5 align-items-center bg-white p-5 rounded-lg mb-5">
+      <h1 class="text-center p-2 text-warning">Zakat Evaluator</h1>
+      <h3 class="text-center">Business Earnings</h3>
+
+      <form>
+          <div class="container p-5">
+                  <div class="form-row">
+                  <div class="form-group col-sm-8">
+                    <input type="text" placeholder="Name of Payer" class="name form-control" value>
+                  </div>
+                  <div class="form-group col-sm-4">
+                    <input type="date"  class="form-control date" id="date">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="email" placeholder="Email" class="email form-control" id="inputEmail4">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="tel" placeholder="Phone Number" class="form-control" id="inputPassword4">
+                  </div>
+                </div>
+          </div>
+      </form>
+      <form>
+            <label class="container bg-light text-warning secondary_header p-1 pl-5" for="form_group"><h4>Income and Assets</h4></label>
+            <div class=" p-4 container" id="form_group">
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label">Net Worth of Business</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">&#8358;</div>
+                    <input type="number" class="worth form-control a" value="0.00" id="inputvalue" >
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label ">Net Profit</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">&#8358;</div>
+                    <input type="number" class="form-control b" value="0.00" id="inputvalue">
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label">Others</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">&#8358;</div>
+                      <input type="number" class="c form-control" value="0.00" id="inputvalue" >
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label">Debtor(s)</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">&#8358;</div>
+                    <input type="number" class="form-control d" value="0.00" id="inputvalue">
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label">Total Savings</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">&#8358;</div>
+                    <input type="number" class="form-control e" value="0.00" id="inputvalue">
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label">Net Proceed From Contracts</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">&#8358;</div>
+                    <input type="number" class="form-control f" value="0.00" id="inputvalue">
+                  </div>
+                  </div>
+                </div>
+          </div>
+
+          <label class="container p-1 pl-5 bg-light secondary_header rounded text-warning" for="form_group"><h4>Liabilities</h4></label>
+          <div class="container justify-items-center p-4" id="form_group">
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label">Creditors</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">&#8358;</div>
+                      <input type="number" class="form-control g" value="0.00" id="inputvalue">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label">Oustanding Salary of Employee</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">&#8358;</div>
+                      <input type="number" class="form-control h" value="0.00" id="inputvalue">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputvalue" class="col-sm-4 col-form-label">Bills and Payment Due This Year</label>
+                  <div class="col-sm-6">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">&#8358;</div>
+                      <input type="number" class="form-control i" value="0.00" id="inputvalue">
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+                
+    </form>
+    <div class="container d-flex justify-content-center">
+          <div class=" m-4 col-2">
+            <button type="button" id="button" onclick="details()" class="btn btn-outline-warning ">Evaluate</button>
+          </div>
+      </div>
+    <form class="output"> 
+           
+          <div class="form-row  mb-5 d-flex justify-content-around text-center">
+
+              <div class="form-row col-3">
+               
+                <div class="" >
+                  <label for="outputValue" class=" col-form-label">Valuation</label>
+                  <input type="number" readonly class="form-control valuation" id="outputValue">
+                </div>
+              </div>
+
+            <div class="form-row col-4 text-center">
+              
+              <div class="">
+                <label for="outputValue" class=" col-form-label">Zakat Payable</label>
+                <input type="number" readonly class="zakat form-control" id="outputValue">
+              </div>
+            </div>
+
+        </div> 
+    </form> 
+     <div class="text-center foot">"May Allah Bless What you Give Out, and Bless What Remains"</div>
+
+  </div>
+
+    <!-- Optional JavaScript -->
+    <script>
+      function details() {
+        // Declare Variables for income
+        var a = parseInt(document.querySelector(".a").value);
+        var b = parseInt(document.querySelector(".b").value);
+        var c = parseInt(document.querySelector(".c").value);
+        var d = parseInt(document.querySelector(".d").value);
+        var e = parseInt(document.querySelector(".e").value);
+        var f = parseInt(document.querySelector(".f").value);
+
+        // Declare Variables for Liabilities
+        var g = parseInt(document.querySelector(".g").value);
+        var h = parseInt(document.querySelector(".h").value);
+        var i = parseInt(document.querySelector(".i").value);
+
+        // Declare Variable for total income
+        var totalIncome = (a + b + c + d + e + f);
+
+        // Declare Variable for Total Liabilities
+        var totalLiabilities = (g + h + i);
+
+        // Delcare Variable for net Income
+
+        var net = (totalIncome - totalLiabilities);
+
+        // Declare Variable for Valuation
+
+        let valuation = document.querySelector(".valuation");
+        
+        valuation.value = net;
+        // Zakat 
+
+        let zakat = document.querySelector(".zakat");
+
+        zakat.value = (net * .025);
+   
+        var name = document.querySelector(".name").value;
+        var email = document.querySelector(".email").value;
+        // var out = document.querySelector("#output");
+        // let c = (a + b);
+        // let d = (c * 2.5);
+        // output.value = c;
+        // console.log(a + b);
+        // alert(`Una sakat id ${d}`)
+    }  
+
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

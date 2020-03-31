@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="get">
+        <input type="text" id="name" >
+        <input type="text" id="name2"  >
+        <input type="text" id="output" value="" readonly> 
+        
+    </form>
+    <input type="button" value="Say Hey" onclick="calc()" readonly>
+
+<script>
+// var form = document.querySelector("form");
+
+    function calc(){
+        var a = parseInt(document.querySelector("#name").value);
+        var b = parseInt(document.querySelector("#name2").value);
+       var out = document.querySelector("#output");
+        let c = (a + b);
+        let d = (c * 2.5);
+        output.value = c;
+        console.log(a + b);
+        alert(`Una sakat id ${d}`)
+    }  
+</script>
+
+</body>
+</html>
