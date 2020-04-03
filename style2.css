@@ -1,0 +1,10 @@
+body{
+    background: white;
+    color: rgb(135, 138, 141);
+    height: 100vh;
+}
+.grain{
+    font-size: 2em;
+}.main{
+    height: 80vh;
+}
