@@ -1,10 +1,15 @@
 body{
-    background: white;
-    color: rgb(135, 138, 141);
+    background: url(media/islam5.jpg) no-repeat center;
+    color: black;
     height: 100vh;
+    font-family: 'Do Hyeon', sans-serif;
 }
 .grain{
     font-size: 2em;
 }.main{
     height: 80vh;
+    
+}.content{
+    background: rgba(255, 255, 255, 0.5);
+    mix-blend-mode: saturation;
 }
