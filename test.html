@@ -1,33 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form action="get">
-        <input type="text" id="name" >
-        <input type="text" id="name2"  >
-        <input type="text" id="output" value="" readonly> 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style3.css" />
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <title>Zakat Calculator</title>
+  </head>
+  <body>
+      <div class="container-fluid d-flex flex-row p-0"> 
         
-    </form>
-    <input type="button" value="Say Hey" onclick="calc()" readonly>
+            <div class="col-12 col-sm-6 col-lg-6 left d-flex text-center  justify-content-center text-align-center">
+              
+                
+                <div>
+                  <nav class="navbar pt-3 container-fluid">
+                    <div class="container">
+                          <a class="navbar-brand" href="#">
+                              <img src="media/logo.png" width="auto" height="70" alt="">
+                          </a>
+                          <a>
+                              <h4 class="text-warning p-0 m-0">Zakat and Sadaqat</h4> 
+                              <h3 class="font-weight-bold text-danger">Foundation</h3>
+                          </a>
+                      </div>
+                  </nav>
+                  <div class=" align-items-center showcase bg-warning">
+                    <div>
+                      Pay Your Zakat
+                    </div>
+                    
+                      
+                      <div class="text-center mt-5">
+                        <div class="container d-flex justify-content-around">
+                          
+                          <div>  
+                           
+                          <a type="submit" href="salary.html"  class="btn">Salary Earner</a>
+                        </div>
+                        <div> 
+                       
+                            <a type="submit" href="business.html" class="btn">Business Owner</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
 
-<script>
-// var form = document.querySelector("form");
+                    
+              </div>
+              
+               
 
-    function calc(){
-        var a = parseInt(document.querySelector("#name").value);
-        var b = parseInt(document.querySelector("#name2").value);
-       var out = document.querySelector("#output");
-        let c = (a + b);
-        let d = (c * 2.5);
-        output.value = c;
-        console.log(a + b);
-        alert(`Una sakat id ${d}`)
-    }  
-</script>
+            </div>
 
-</body>
+            <div class="col-12 col-sm-6 col-lg-6  right p-0 "></div>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <nav class="navbar pt-3">
+      <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="media/logo.png" width="auto" height="70" alt="">
+            </a>
+            <a>
+                <h4 class="text-warning p-0 m-0">Zakat and Sadaqat</h4> 
+                <h3 class="font-weight-bold text-danger">Foundation</h3>
+            </a>
+        </div>
+    </nav>
+    <div class="main container d-flex align-items-center col-6">
+        <div class="content p-4 container col-12 d-flex align-items-center">
+          <div class="showcase container col-12 col-md-6">
+              <p class="h5">The Prophet (s.a.w.s.) also said: 
+                “The believer’s shade on the Day of Resurrection will be his Sadaqah.” (Ahmad)</p> 
+          </div>
+          <div class=" container text-center col-12 col-md-6">    
+              <h2 class="text-center">Pay Your Zakat</h2>
+              <div class="row m-5">  
+                  <div class="col-6">
+                        <a type="submit" href="salary.html"  class="btn btn-outline-danger">Salary Earner</a>
+                  </div> 
+                  <div class=" col-6">
+                        <a type="submit" href="business.html" class="btn btn-outline-danger">Business Owner</a>
+                  </div> 
+              </div>
+          </div>
+        </div>
+      </div> -->
+           
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,0 +1,29 @@
+.right{
+    background: url(media/shade.jpg) center;
+    height: 100vh;
+}.left{
+    background-color: rgb(0, 0, 255);
+}.text_content{
+    color: WHITE;
+}.btn{
+    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+}.p{
+    text-justify: newspaper;
+}.h3{
+    color: #FFFDAB;
+}.showcase{
+    height: %;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 575.98px) { 
+    .btn{
+        font-size: .2em;
+    }body{
+        font-size: x-small;
+    }
+ }
+ 
