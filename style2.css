@@ -10,12 +10,10 @@ body{
 }.content{
     background: rgba(92, 71, 71, 0.3);
     mix-blend-mode: saturation;
+}h2{
+    font-size: 3vw;
+}p{
+    font-size: 1vw;
+}.btn{
+    font-size: 1vw;
 }
-
-@media (max-width: 575.98px) { 
-    .btn{
-        font-size: .2em;
-    }body{
-        font-size: .5em;
-    }
- }
