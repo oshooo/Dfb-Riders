@@ -16,7 +16,9 @@ body{
 }.btn{
     font-size: 1vw;
     border: 2px solid white;
-    color: turquoise;
+    color: rgb(221, 224, 64);
+}.btn:hover{
+    transform: scale(1.2);
 }
 @media (max-width: 575.98px) { 
     .btn{
